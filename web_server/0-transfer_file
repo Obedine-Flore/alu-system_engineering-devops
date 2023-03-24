@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-#This script transfers a file from a client to a server
+# Writing a Bash script that transfers a file from a client to a server
 
 if [ "$4" == "" ]
-then
+then 
     echo "Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
 else
     host="$3@$2:~/"
